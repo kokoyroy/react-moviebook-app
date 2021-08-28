@@ -1,0 +1,32 @@
+:root {
+    --maxWidth: 1280px;
+    --white: #fff;
+    --lightGrey: #eee;
+    --medgrey: #353535;
+    --darkGrey: #1c1c1c;
+    --fontSuperBig: 2.5rem;
+    --fontBig: 1.5rem;
+    --fontMed: 1.2rem;
+    --fontSmall: 1rem;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Abel", sans-serif;
+    font-weight: 600;
+}
+p {
+    font-size: 1rem;
+    color: var(--white);
+}
