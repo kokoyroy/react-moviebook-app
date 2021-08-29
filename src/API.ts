@@ -1,3 +1,4 @@
+import { MoviesState } from './models/movie';
 import {
   SEARCH_BASE_URL,
   POPULAR_BASE_URL,
@@ -7,7 +8,6 @@ import {
   LOGIN_URL,
   SESSION_ID_URL
 } from './config';
-import { Movie } from './models/movie';
 
 const defaultConfig = {
   method: 'POST',
@@ -21,7 +21,7 @@ const defaultConfig = {
 
 
 const apiSettings = {
-  fetchMovies: async (searchTerm: string, page: number): Promise<Array<Movie>> => {
+  fetchMovies: async (searchTerm: string, page: number): Promise<MoviesState> => {
     const endpoint = searchTerm
       ? `${SEARCH_BASE_URL}${searchTerm}&page=${page}`
       : `${POPULAR_BASE_URL}&page=${page}`;

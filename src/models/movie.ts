@@ -52,3 +52,10 @@ export interface Movie {
     vote_average: number;
     vote_count: number;
 }
+
+export interface MoviesState {
+    page: number;
+    results: Array<Movie>;
+    total_pages: number;
+    total_results: number;
+}
