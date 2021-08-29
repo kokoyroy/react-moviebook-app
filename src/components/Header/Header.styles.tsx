@@ -16,11 +16,11 @@ margin: 0 auto;
 
 export const LogoImg = styled.img`
 width: 17%;
-min-width: 120px;
+min-width: 100px;
 `;
 
 export const TMDBLogoImg = styled.img`
 width: 15%;
-min-width: 120px;
+min-width: 100px;
 `;
 

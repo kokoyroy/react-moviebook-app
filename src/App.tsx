@@ -1,11 +1,12 @@
 import React from 'react';
 import './app.scss';
 import Header from './components/Header/Header';
-function App() {
+import Hero from './components/Hero/Hero';
+function App(): JSX.Element {
   return (
     <div >
       <Header />
-      asdasda
+      <Hero />
     </div>
   );
 }
