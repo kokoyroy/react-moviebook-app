@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import { POSTER_SIZE, BACKDROP_SIZE, IMAGE_BASE_URL } from '../../config';
+import {  BACKDROP_SIZE, IMAGE_BASE_URL } from '../../config';
 import { useHomeFetch } from '../../hooks/useHeroFetch';
 
 // useHomeFetch;

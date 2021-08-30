@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import apiSettings from "../API";
 import { MoviesState } from "../models/movie";
 
@@ -27,6 +27,7 @@ export const useHomeFetch = (): [MoviesState] => {
         } catch (err) {
             setError(true);
             console.log(err);
+            console.log(error)
         }
     };
 
